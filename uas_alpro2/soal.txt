@@ -1,0 +1,43 @@
+ 	
+(msjg17) Akhirnya Mesin Juga
+
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi	5 Detik
+Batas Memori	1 MB
+
+
+
+- Please do not forget to type your honour vow to be honest
+- Every not conducive condition will warn, and every third warning will cut the remaining time for ten minutes for all participants. 
+
+Evaluation Abilities: abilities to understand about character machine and word machine concept.
+
+There is a ribbon that comprise of many words. Every words may content with consonant, vocal, or number character. Count the number of consonants, vocals, and number using character machine and do checking whether the numbers can divide by the input number. Then also show on the screen all the words which have more than input number of vocals character using word machine.
+Input Format:
+
+ribbon string, prepare roughly 500 characters
+n, 0 < 0 < 50, an input number
+
+Output Format:
+
+the amount of consonants and yes if it can divide by the input number and no if it is not
+the amount of vocals and yes if it can divide by the input number and no if it is not
+the amount of number characters and yes if it can divide by the input number and no if it is not
+all the words which have more than input number of vocals.
+
+Contoh Masukan
+
+dal4m hidup 1n1 mauuuu 4p4aaaaaa kalau tidak untuk manfaat .
+3
+
+
+Contoh Keluaran
+
+21 yes
+24 yes
+5 no
+mauuuu
+4p4aaaaaa
+

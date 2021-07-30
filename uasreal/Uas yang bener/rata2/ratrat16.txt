@@ -1,0 +1,59 @@
+	
+(ratrat16) Rata-rata Paling Besar
+
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi	5 Detik
+Batas Memori	1 MB
+
+
+
+- jangan lupa ketik janji setia pada kejujuran
+- setiap suasana tidak kondusif akan mendapat teguran, dan setiap teguran ketiga akan dikenakan pemotongan waktu 10 menit bagi semua peserta evaluasi.
+
+Kompetensi yang dievaluasi: Kemampuan memahami konsep prosedur dan fungsi.
+Buatlah fungsi atau prosedur untuk menyelesaikan soal ini. Diberikan dua buah array of integer. Hitung rata-rata dari kedua array dan ambil hanya angka di depan koma dari masing-masing rata-rata. Lalu bandingkan, jika lebih besar rata-rata array pertama maka tampilkan rata-rata array pertama, jika lebih besar rata-rata array kedua, maka tampilkan rata-rata array kedua.
+Format Masukan:
+
+n1, 0 < n1 < 50, banyaknya jumlah elemen integer dari array pertama.
+n1 baris integer isi array pertama.
+n2, 0 < n2 < 50, banyaknya jumlah elemen integer dari array kedua.
+n2 baris integer isi array kedua (tidak ada kasus rata-rata sama di server).
+
+Format Keluaran:
+
+rata-rata array pertama atau array kedua.
+
+Contoh Masukan
+
+3
+1
+2
+3
+2
+33
+44
+
+
+Contoh Keluaran
+
+38
+
+Contoh Masukan 2
+
+2
+33
+44
+3
+1
+2
+3
+
+
+Contoh Keluaran 2
+
+38
+
+       
+

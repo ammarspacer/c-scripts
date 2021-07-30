@@ -1,0 +1,4 @@
+#include "head.h"
+#include <string.h>
+
+int i,j;

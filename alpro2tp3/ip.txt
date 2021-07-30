@@ -1,0 +1,61 @@
+SorIP17) Sorting Serangan Cyber
+
+
+Pembuat Soal: Asisten Pemrograman 7
+
+Batas Waktu Eksekusi	5 Detik
+Batas Memori	1 MB
+
+Gedung Prodi Ilmu komputer adalah salah satu basis pertahanan serangan Cyber di Indonesia. Suatu saat dunia cyber geger dengan serangan brutal dari organisasi yang menyebut diri mereka E S T E T I K A. Piyu holmes sebagai salah satu tokoh di Ilmu Komputer menyelidiki kebiasaan para penyerang dan dengan deduksinya ia mampu memperkirakan prioritas serangan mana yang paling membahayakan. 
+
+Menurut piyu penyerang paling berbahaya adalah penyerang yang bila ip-nya diurutkan secara Descending dan di dalam ip yang sama nama-nya secara Ascending(anggap saja ip bisa sama). adalah data yang urutanya ada diatas. 
+
+======================================
+PS :
+IP cukup diurutkan sebagai sebuah string.
+Gunakan Bubble Sort dan juga Quicksort.
+Fake list adalah ip yang tidak valid. (lebih dari 255 atau karakter selain angka).
+Fake list urutannya sesuai dengan input (tidak perlu di sorting).
+Bila semua data valid, maka Fake list tidak ditampilkan
+
+clue : boleh menggunakan atoi
+======================================
+Format Masukan:
+
+
+X , jumlah input
+n m, IP dan nama alias pemilik IP
+Format Keluaran:
+
+
+IP dan nama sesuai ketentuan
+
+Contoh Masukan
+
+10
+123.236.1.0 BlackKnight
+45.67.124.34 LightBearer
+94.251.235.67 LastHope
+123.456.789.10 TrollMaster
+255.232.3.10 HighLander
+67.34.56.10 DarkLord
+199.168.10.1 Harambe
+4ku.121.4&k.amu Liar
+123.45.67.8 TheWarrior
+45.67.124.34 GoodLuck
+
+Contoh Keluaran
+
+======TOP LIST======
+94.251.235.67 LastHope
+67.34.56.10 DarkLord
+45.67.124.34 GoodLuck
+45.67.124.34 LightBearer
+255.232.3.10 HighLander
+199.168.10.1 Harambe
+123.45.67.8 TheWarrior
+123.236.1.0 BlackKnight
+
+=====Fake List=====
+123.456.789.10 TrollMaster
+4ku.121.4&k.amu Liar

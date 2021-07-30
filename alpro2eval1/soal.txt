@@ -1,0 +1,48 @@
+	
+(Eval1A21) Sorting Tabel Biner Desimal Alay
+
+
+Pembuat Soal: Tim Asisten Pemrograman
+
+Batas Waktu Eksekusi	5 Detik
+Batas Memori	1 MB
+
+buatlah program yang bisa menerima masukan 3 tabel
+disetiap tabelnya dapat berisi angka biner atau desimal sesuai input
+lalu gabungkan ketiga tabel itu secara terurut (sesuai nilainya).
+kemudian tampilkan hasil penggabungan tersebut menjadi biner atau desimal (sesuai input)
+semua biner yang diinput terdiri dari 6 bit saja (maksimal 63 desimal).
+
+format masukan
+x a, jumlah angka, biner atau desimal
+masukan angka sebanyak input x
+y b, jumlah angka, biner atau desimal
+masukan angka sebanyak input y
+z c, jumlah angka, biner atau desimal
+masukan angka sebanyak input z
+hasil keluaran yang diinginkan(Biner Atau Desimal)
+
+format keluaran
+sebuah tabel terurut sesuai input secara ascending
+Contoh Masukan
+
+2 B
+111111
+000001
+3 D
+45
+20
+3
+1 D
+10
+Desimal
+
+
+Contoh Keluaran
+
+1
+3
+10
+20
+45
+63

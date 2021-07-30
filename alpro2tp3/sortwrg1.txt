@@ -1,0 +1,68 @@
+(Sortwrg1) Sorting Warteg Owl
+
+Pembuat Soal: Tim asistem pemrograman 7
+
+Batas Waktu Eksekusi
+5 Detik
+Batas Memori
+1 MB
+
+Owl ingin membuka rumah makan. Ia berniat membuat program yang dapat mendata,
+apa saja yang dibeli pelanggannya kemudian urutkan berdasarkan harga,
+proses pengurutan ditentukan dengan inputan khusus A=Ascending D=Descending.
+bila Ascending gunakan insertion sort dan bila descending gunakan selection sort.
+Bila ada harga makanan yang sama urutkan nama berdasarkan nama makanan(bila telah memilih Ascending maka nama akan diurutkan ascending dan bila memilih descending maka nama akan diurutkan secara descending).
+
+Format Masukan
+Jumlah Menu
+Nama_makanan(spasi)harga
+D/A
+Format Keluaran
+Menu yang sudah diurutkan dan memiliki jumlah spasi yang rata
+
+Contoh Masukan
+5
+nasi 4000
+makaroni 5000
+ikan 5000
+sadas 13000
+mie 8000
+A
+
+Contoh Keluaran
+nasi     4000
+ikan     5000
+makaroni 5000
+mie      8000
+sadas    13000
+
+
+Contoh Masukan 2
+5
+nasi 4000
+makaroni 5000
+ikan 7000
+sadas 13000
+mie 8000
+D
+
+Contoh Keluaran 25
+sadas    13000
+mie      8000
+ikan     7000
+makaroni 5000
+nasi     4000
+       
+Contoh Masukan 3
+4
+ikan 7000
+nasi 4000
+mie 8000
+makaroni 5000
+A
+
+Contoh Keluaran 3
+nasi     4000
+makaroni 5000
+ikan     7000
+mie      8000

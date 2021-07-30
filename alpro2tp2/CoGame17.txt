@@ -1,0 +1,51 @@
+ 	
+(CoGame17) Meramal Permainan Koin
+
+Pembuat Soal: Tim Asistem Pemrograman
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	5 MB
+
+Moni dan Piyu merupakan orang yang pintar, ambisius.
+Mereka akan berusaha melakukan yang terbaik di setiap aktifitas untuk mendapatkan hasil yang optimal.
+
+Saat ini Moni dan Piyu memainkan sebuah permainan dengan menggunakan beberapa koin yang disimpan didalam kotak. Mereka diperkenankan untuk mengambil 1, 2, atau 4 koin dari kotak di setiap gilirannya. Pemenangnya ialah pemain yang mengambil koin terakhir dari dalam kotak.
+Tentu saja Moni dan Piyu akan menyusun strategi masing-masing agar dapat memenangkan permainan.
+
+Karena ukuran kotak yang terbatas, kotak hanya dapat menampung maksimal 30 koin.
+
+Mari kita buat program untuk meramal pemenang dari permainan ini, dan menghitung banyaknya strategi yang dapat dilakukan oleh pemain tersebut untuk menang.
+Format Masukan
+Jumlah Koin
+Nama Pemain Pertama
+Nama Pemain Kedua
+Format Keluaran
+[Nama Pemain] [Jumlah Strategi]
+Contoh Masukan
+3
+Moni
+Piyu
+
+
+Contoh Keluaran
+Piyu 2
+
+		
+Contoh Masukan 2
+4
+Moni
+Piyu
+
+
+Contoh Keluaran 2
+Moni 3
+
+	       
+Contoh Masukan 3
+10
+Moni
+Piyu
+
+Contoh Keluaran 3
+Moni 22
+       

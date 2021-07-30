@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+	int n,i;
+	scanf("%d", &n);
+	char aa[n], bb[n], cc[n], dd[n], wrong[n];
+	int health, damage = 0;
+	
+	for(i=0;i<n;i++){
+		scanf(" %c", &aa);
+		scanf(" %c", &bb);
+		scanf(" %c", &cc);
+		scanf(" %c", &dd);
+	}scanf("%d", &health);
+	
+	for(i=0;i<n;i++){
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+}

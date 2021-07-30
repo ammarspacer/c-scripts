@@ -1,0 +1,9 @@
+0 0 kotaA
+10 0 kotaC
+0 10 kotaB
+10 15 kotaD
+30 15 kotaE
+10 10 kotaZ
+35 15 ammar_ashshiddiqi
+5 5 kotaG
+-1 -1 ##

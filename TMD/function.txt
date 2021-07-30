@@ -1,0 +1,15 @@
+int hasill(int angk1,int angk2, char operasi[50],int ketebalan){
+	int hasil;
+	
+	if(strcmp(operasi, "tambah") == 0){
+		hasil = angk1 + angk2;
+	}else if(strcmp(operasi, "kali") == 0){
+		hasil = angk1 * angk2;
+	}else if(strcmp(operasi, "bagi") == 0){
+		hasil = angk1 * angk2;
+	}else if(strcmp(operasi, "kurang") == 0){
+		hasil = angk1 - angk2;
+	}
+	
+	return hasil;
+}

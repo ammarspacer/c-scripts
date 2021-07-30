@@ -1,0 +1,79 @@
+	      	
+(QUE17) Merge Table With Query
+
+
+Pembuat Soal: Tim Asisten Pemrograman 7
+
+Batas Waktu Eksekusi	5 Detik
+Batas Memori	1 MB
+
+Moni dan piyu sedang rame rame nya belajar query database dan pertabelan. Lalu mereka diberi tugas oleh dosen. Mereka memiliki 3 table data mahasiswa, tugas moni adalah sorting dan tugas piyu adalah merge. Sorting dan merge nya memakai query. Bantulah moni dan piyu untuk menyelesaikan tugas mereka menggunakan program agar lebih simple.
+
+Format Masukan
+
+
+x, jumlah data pertama
+nama status nilai, sejumlah x
+y, jumlah data kedua
+nama status nilai, sejumlah y
+z, jumlah data ketiga
+nama status nilai, sejumlah z
+query, sorting berdasarkan apa secara apa dan menggunakan sort apa (jika sama maka sort berdasarkan nama, pilihan sort : nama, status, nilai)
+query, merge nya table mana dulu lalu dengan apa (dipisah kan oleh on e.g : 1on2on3 berarti 1 dan 2 terlebih dahulu lalu 3)
+
+Format keluaran
+
+
+jumlah_data_di_tabel_akhir
+data_yang_telah_disort_dan_dimerge
+Contoh Masukan
+
+3
+iqdam single 90
+ali menikah 69
+ateng prenzone 80
+2
+faris menikah 100
+isna taaruf 90
+3
+putri single 75
+gina kakakade 45
+genta menikah 68
+select_*_from_1,2,3_order_by_nilai_asc_with_selection;
+select_*_from_1,2,3_full_outer_join_1_on_3_on_2;
+
+
+Contoh Keluaran
+
+8
+gina kakakade 45
+genta menikah 68
+ali menikah 69
+putri single 75
+ateng prenzone 80
+iqdam single 90
+isna taaruf 90
+faris menikah 100
+
+Contoh Masukan 2
+
+1
+nopal single 70
+2
+ammar menikah 25
+herlina single 64
+2
+achmad taaruf 90
+yuni taaruf 55
+select_*_from_1,2,3_order_by_status_desc_with_quick;
+select_*_from_1,2,3_full_outer_join_2_on_3_on_1;
+
+
+Contoh Keluaran 2
+
+5
+yuni taaruf 55
+achmad taaruf 90
+nopal single 70
+herlina single 64
+ammar menikah 25
